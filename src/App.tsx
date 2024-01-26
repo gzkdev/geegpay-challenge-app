@@ -1,9 +1,10 @@
 import { MobileMenu } from "./components/mobile-menu";
+import { Navbar } from "./components/navbar";
 
 function App() {
   return (
     <>
-      <MobileMenu open={true} />
+      <Navbar />
     </>
   );
 }
