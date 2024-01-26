@@ -15,7 +15,7 @@ import {
 export function MobileMenu({ open }: { open: boolean }) {
   return (
     <div
-      className="absolute top-0 left-0 w-full h-screen duration-200 max-w-80"
+      className="fixed top-0 left-0 z-10 w-full h-screen duration-200 max-w-80"
       style={{
         transform: open ? "translateX(0)" : "translateX(-100%)",
       }}
