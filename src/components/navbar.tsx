@@ -45,6 +45,7 @@ export function Navbar() {
           name="search"
           id="search"
           placeholder="Search..."
+          autoComplete="off"
           className="flex-grow h-full pl-6 border-none outline-none bg-inherit"
         />
       </div>
