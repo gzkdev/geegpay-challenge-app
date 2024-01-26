@@ -1,7 +1,11 @@
-import "./App.css";
+import { MobileMenu } from "./components/mobile-menu";
 
 function App() {
-  return <h1 className="text-3xl font-bold">Hello world!</h1>;
+  return (
+    <>
+      <MobileMenu />
+    </>
+  );
 }
 
 export default App;
