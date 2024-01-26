@@ -3,7 +3,7 @@ import { MobileMenu } from "./components/mobile-menu";
 function App() {
   return (
     <>
-      <MobileMenu />
+      <MobileMenu open={true} />
     </>
   );
 }
